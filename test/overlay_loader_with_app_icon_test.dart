@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:overlay_loader_with_app_icon/overlay_loader_with_app_icon.dart';
+import 'package:overlay_loader_with_app_icon/example.dart';
 
 void main(){
 
