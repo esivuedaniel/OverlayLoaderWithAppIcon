@@ -1,6 +1,6 @@
 name: overlay_loader_with_app_icon
 description: A flutter package that shows a beautiful overlay loader with appIcon when initiating an async call.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/esivuedaniel/OverlayLoaderWithAppIcon
 
 environment:

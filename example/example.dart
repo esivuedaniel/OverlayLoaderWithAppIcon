@@ -88,10 +88,8 @@ class _LoginPageState extends State<LoginPage> {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         TextFormField(
-          key: ValueKey('email'),
           controller: emailController,
           textInputAction: TextInputAction.next,
-          validator: (value) =>Validator.validateEmail(value!),
           decoration: InputDecoration(
               border: UnderlineInputBorder(),
               hintText: "Enter Email"
@@ -100,10 +98,8 @@ class _LoginPageState extends State<LoginPage> {
 
         SizedBox(height: 20,),
         TextFormField(
-          key: ValueKey('password'),
           controller: passwordController,
           obscureText: true,
-          validator: (value)=>Validator.validatePassword(value!),
           decoration: InputDecoration(
               border: UnderlineInputBorder(),
               hintText: "Enter Password"

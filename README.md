@@ -71,8 +71,8 @@ OverlayLoaderWithAppIcon({
 
 
 ## Feel free to contribute to this package!! 🙇‍♂️
-if anyone wants to improve this package, you're free to do so
+If anyone wants to improve this package, you're free to do so
 
 ## If you need any features
-Please open an issue so that we can discuss your feature request 🙏
+Please open an issue so that we can discuss your feature request
 
