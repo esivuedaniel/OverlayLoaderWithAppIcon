@@ -18,8 +18,7 @@ A clean and light-weight package that shows a beautiful overlay loader with appI
 
 ## Getting started
 
-[Example](https://github.com/esivuedaniel/OverlayLoaderWithAppIcon/blob/master/lib/example/overlay_loader_with_app_icon.dart)
-
+[Example](https://github.com/esivuedaniel/OverlayLoaderWithAppIcon/blob/master/example/example.dart)
 Add package to pubspec.yaml
 
 ```
