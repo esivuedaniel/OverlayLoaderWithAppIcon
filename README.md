@@ -1,26 +1,76 @@
 #  Overlay loader with app icon
 
-A clean and lightweight package that show a beautiful overlay loader with appIcon when initiating an async call.
+A clean and light-weight package that shows a beautiful overlay loader with appIcon when initiating an async call.
 
 ## Demo App
-<img src="/images/app_img.gif" width="250" height="250"/>
+<table>
+<tbody>
+  <tr>
+    <td align="center">
+      <img src="/images/app_img.gif" width="320" height="660"/>
+    </td>
+    <td align="center">
+      <img src="/images/giphy.gif" width="320" height="660"/>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add package to pubspec.yaml
+
+```
+dependencies:
+  ...
+  overlay_loader_with_app_icon:
+```
+Next, import the library into your widget.
+
+```dart
+import 'package:overlay_loader_with_app_icon/overlay_loader_with_appicon.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+To make an async call and display a modal with an appIcon progress indicator while the async call is taking place, wrap [OverlayLoaderWithAppIcon] around any widget.
+Using the [isLoading] boolean variable, the progress loader can be enabled or disabled.
 
 ```dart
-const like = 'sample';
+
+bool _loading = false;
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    body: OverlayLoaderWithAppIcon(
+        isLoading: _loading,
+        appIcon:  Image.asset('images/appIcon.png'),
+        child: Container(
+       child: Form(...)
+    )),
+  );
+}
+```
+## More Options
+The current parameters are customizable in the constructor
+```dart
+OverlayLoaderWithAppIcon({
+  required this.isLoading, 
+  required this.child, 
+  required this.appIcon, 
+  this.appIconSize=50,
+  this.borderRadius=15, 
+  this.overlayOpacity=0.5, 
+  this.circularProgressColor, 
+  this.overlayBackgroundColor
+});
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+
+## Feel free to contribute to this package!! 🙇‍♂️
+if anyone wants to improve this package, you're free to do so
+
+## If you need any features
+Please open an issue so that we can discuss your feature request 🙏
+
