@@ -2,7 +2,6 @@ library overlay_loader_with_app_icon;
 
 import 'package:flutter/material.dart';
 import 'package:overlay_loader_with_app_icon/overlay_loader_with_appicon.dart';
-import 'package:pratice_overlay/validate/validator_class.dart';
 
 
 
@@ -69,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
       isLoading: _isLoading,
       overlayBackgroundColor: Colors.black,
       circularProgressColor: Color(0xff670099),
-      appIcon:  Image.asset('images/kudi_icon.png'),
+      appIcon:  Image.asset('images/appIcon.png'),
       child: Scaffold(
         appBar: AppBar(title: Text("Overlay loader with app icon"),),
         body: Form(
