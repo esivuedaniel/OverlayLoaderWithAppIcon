@@ -30,7 +30,7 @@ dependencies:
 Next, import the library into your widget.
 
 ```dart
-import 'package:overlay_loader_with_app_icon/overlay_loader_with_appicon.dart';
+import 'package:overlay_loader_with_app_icon/overlay_loader_with_app_icon.dart';
 ```
 
 ## Usage

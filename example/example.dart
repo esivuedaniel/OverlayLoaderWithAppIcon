@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:overlay_loader_with_app_icon/overlay_loader_with_appicon.dart';
+import 'package:overlay_loader_with_app_icon/overlay_loader_with_app_icon.dart';
 
 
 
