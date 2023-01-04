@@ -3,18 +3,8 @@
 A clean and light-weight package that shows a beautiful overlay loader with appIcon when initiating an async call.
 
 ## Demo App
-<table>
-<tbody>
-  <tr>
-    <td align="center">
-      <img src="/images/app_img.gif" width="320" height="660"/>
-    </td>
-    <td align="center">
-      <img src="/images/giphy.gif" width="320" height="660"/>
-    </td>
-  </tr>
-</tbody>
-</table>
+
+![](https://media.giphy.com/media/9BIQDd4QuHEWihTuEz/giphy.gif)
 
 ## Getting started
 
@@ -70,9 +60,8 @@ OverlayLoaderWithAppIcon({
 
 
 
-## Feel free to contribute to this package!! 🙇‍♂️
-If anyone wants to improve this package, you're free to do so
+## Thank you for using my package😊🙏🏻
 
-## If you need any features
-Please open an issue so that we can discuss your feature request
+## If you need more features
+Please open an issue so that we can discuss it
 
